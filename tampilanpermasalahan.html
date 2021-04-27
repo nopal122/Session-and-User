@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Permasalahan</title>
+</head>
+<body>
+    <p><b>Proses Login</b></p>
+    <form action="login.php" method="GET">
+        <p>Username : <input type="text" name="username"></p>
+        <p>Password : <input type="password" name="sandi"></p>
+        <input type="submit" name="masuk" value="Login">
+    </form>
+    <p><b>=======================================================</b></p>
+    <p><b>Pendaftaran User Baru</b></p>
+    <form action="daftarbaru.php" method="GET">
+        <p>Username : <input type="text" name="namabaru"></p>
+        <p>Password : <input type="password" name="passwordbaru"></p>
+        <p>Re-Type Password : <input type="password" name="retypepassword"></p>
+        <p>Gender : </p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="submit" name="daftarbaru" value="Sign Up">
+    </form>
+</body>
+</html>
